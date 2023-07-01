@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Grocery Website Design Tutorial</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> hungry </a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#features">features</a>
+            <a href="#products">popular orders</a>
+            <a href="#categories">popular brands</a>
+            <a href="#review">review</a>
+            <a href="#quick">quick Orders</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/product-2.webp" alt="">
+                <div class="content">
+                    <h3>panjabi fix dinner thali</h3>
+                    <span class="price">rs.275/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/product-6.png" alt="">
+                <div class="content">
+                    <h3>strawberry <br> milkshake</h3>
+                    <span class="price">rs.239/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/product-7.png" alt="">
+                <div class="content">
+                    <h3>Choclate Ice cream pp</h3>
+                    <span class="price">rs.229/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="total"> total : rs.743/- <br>
+                discount : rs.40/- <br>
+                grand total : rs.703/- </div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+            <div class="content">
+                <h3> Life is a combination of magic and pasta.</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- quick section starts  -->
+
+    <section class="quick" id="quick">
+
+        <h1 class="heading"><span>Recommended</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="image/aproduct-1.webp" alt="">
+                <div class="content">
+                    <h2>Garden Fresh Burger</h2>
+                    <p>rs. 190<br>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>   4.3
+                        </div><br>
+                    <h4>Crispy vegetable patty, served with salad and eggless mayonnaise on a..</h4><br><br>
+                    <a href="#" class="btn">add + </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/aproduct-2.webp" alt="">
+                <div class="content">
+                    <h2>Veggie Burger</h2>
+                    <p>rs.125</p><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>   4.2
+                    </div><br>
+                    <h4>An everyday classic burger with a delectable patty filled with potatoes...</h4><br><br>
+                    <a href="#" class="btn">Add +</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/aproduct-3.webp" alt="">
+                <div class="content">
+                    <h2>Aloo Tikki Burger</h2>
+                    <p>rs.55</p><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>   4.5
+                    </div><br>
+                    <h4>The World's favourite Indian burger! Crunchy potato and peas patty with..</h4><br><br>
+                    <a href="#" class="btn">Add +</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/aproduct-4.webp" alt="">
+                <div class="content">
+                    <h2>Paneer Royale Burger</h2>
+                    <p>rs.199</p><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>   5.0
+                    </div><br>
+                    <h4>Thick Paneer Patty, loads of sauces in soft square masala buns. It's Royally..</h4><br>
+                    <a href="#" class="btn">Add +</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/aproduct-5.webp" alt="">
+                <div class="content">
+                    <h2>Potato Krunch Burger</h2>
+                    <p>rs. 59</p><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>   5.0
+                    </div><br>
+                    <h4>Crispy fried potato patty with onion roundels and cheese sauce..</h4><br><br><br><br>
+                    <a href="#" class="btn">Add +</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/aproduct-6.webp" alt="">
+                <div class="content">
+                    <h2>Insane Blueberry Thick Shake</h2>
+                    <p>rs.229</p><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>   5.0
+                    </div><br>
+                    <h4>2 delicious chicken value burgers - at a deal price..</h4><br><br><br><br>
+                    <a href="#" class="btn">Add +</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/aproduct-7.webp" alt="">
+                <div class="content">
+                    <h2>Veg Burger</h2>
+                    <p>rs.99</p><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>   5.0
+                    </div><br>
+                    <h4>Salad, lettuce, crispy mixed veg patty.</h4><br><br><br><br><br>
+                    <a href="#" class="btn">Add +</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/aproduct-8.webp" alt="">
+                <div class="content">
+                    <h2>Chicken Burger</h2>
+                    <p>rs.104</p><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>   4.5
+                    </div><br>
+                    <h4>An appetizing burger filled with strips of juicy chicken and flyffy bread with mayo and lettuce...More</h4><br><br><br>
+                    <a href="#" class="btn">add +</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/aproduct-9.webp" alt="">
+                <div class="content">
+                    <h2>Crispy Chicken Burger</h2>
+                    <p>rs. 135</p><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>   5.0
+                    </div><br>
+                    <h4>Fresh Chicken Fillet Marinated With Spices & Seasoned And Breaded And Carefully Layered With Fresh Lettuce Onion And Mayonnaise.Served with Hot Sauce...More</h4><br><br><br>
+                    <a href="#" class="btn">add +</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/aproduct-10.jpg" alt="">
+                <div class="content">
+                    <h2>Veg Burger</h2>
+                    <p>rs.109</p><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>   5.0
+                    </div><br>
+                    <h4>The World's favourite Indian burger! Crunchy potato and peas patty with..</h4><br><br><br><br><br>
+                    <a href="#" class="btn">add +</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/aproduct-11.webp" alt="">
+                <div class="content">
+                    <h2>Chicken Cheese Burger</h2>
+                    <p>rs.90</p><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>   5.0
+                    </div><br>
+                    <h4>Juicy chicken patties loaded with veggies and fresh cheese presented...</h4><br><br><br><br><br>
+                    <a href="#" class="btn">add +</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/aproduct-12.webp" alt="">
+                <div class="content">
+                    <h2>Butter Paneer Kulcha Burger</h2>
+                    <p>rs.149</p><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>   3.5
+                    </div><br>
+                    <h4>Our Indian touch to burger with regional favourites - kulcha and butter paneer masala is an absolute sensation. Allergen Information: Dairy, Vinegar, Soy, Gluten, Nut, Seeds, Nutmeg...More</h4><br><br><br>
+                    <a href="#" class="btn">add +</a>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- quick section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3> hungry <i class="fas fa-shopping-basket"></i> </h3>
+                <p>Near,D-404,The First Synthesis B/H keshav Baugh Party Plot, Shivalik High Street Ahmedabad,Gujrat 380015.</p>
+                <div class="share">
+                    <a href="https://www.facebook.com/people/MV-Clouds-Private-Limited/100063698268170/"
+                        class="fab fa-facebook-f"></a>
+                    <a href="https://twitter.com/mvclouds" class="fab fa-twitter"></a>
+                    <a href="https://www.instagram.com/mvcloudsync/?hl=en" class="fab fa-instagram"></a>
+                    <a href="https://www.linkedin.com/company/mv-clouds-private-limited/mycompany/"
+                        class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +91 79403 72991 </a>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +91 79403 72991 </a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> Mvclouds@gmail.com </a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Ahmedabad, india - 380015 </a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> popular orders </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> popular brands </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> quick Orders</a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="send" class="btn">
+                <img src="image/payment.png" class="payment-img" alt="">
+            </div>
+
+        </div>
+
+        <div class="credit"> created by <span> MV Clouds </span> | all rights reserved </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="index.js"></script>
+
+</body>
+
+</html>

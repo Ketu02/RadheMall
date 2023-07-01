@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Grocery Website Design Tutorial</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="" class="logo"> <img src="image/RADHE-removebg-preview.png" alt="">
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#features">features</a>
+            <a href="#products">popular orders</a>
+            <a href="#categories">popular brands</a>
+            <a href="#quick">quick Orders</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/product-2.webp" alt="">
+                <div class="content">
+                    <h3>panjabi fix dinner thali</h3>
+                    <span class="price">rs.275/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/product-6.png" alt="">
+                <div class="content">
+                    <h3>strawberry <br> milkshake</h3>
+                    <span class="price">rs.239/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/product-7.png" alt="">
+                <div class="content">
+                    <h3>Choclate Ice cream pp</h3>
+                    <span class="price">rs.229/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="total"> total : rs.743/- <br>
+                discount : rs.40/- <br>
+                grand total : rs.703/- </div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <!-- <img src="image/cover image.png" alt=""> -->
+            <h3> Wardrobe <span>Classics </span> You Should Have...</h3>
+            <p>Relish crazy deals on Party-sized Orders...</p>
+            <a href="ordernow.html" class="btn">order now</a>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- features section starts  -->
+
+    <section class="features" id="features">
+
+        <h1 class="heading"> our <span>features</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="image/feature-img-1.png" alt="">
+                <h3> Best Quality</h3>
+                <p>Some of the best high-quality clothing materials are silk, cotton, leather, wool, and cashmere. 
+                    These are natural materials and as such usually come with a higher price tag, but are one hundred percent worth the price.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="image/feature-img-4.jpg" alt="">
+                <h3>live tracking</h3>
+                <p>Installing GPS tracking system to every delivery operations can provide real-time delivery fleet data
+                    for better customer service.</p><br><br>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="image/feature-img-2.png" alt="">
+                <h3>fast delivery</h3>
+                <p>it expands your customer base, increases your revenue, gives your customers a variety of options, and
+                    it also offers unparalleled convenience</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="image/feature-img-3.png" alt="">
+                <h3>easy payments</h3>
+                <p>Customers can, depending on the delivery company, choose to pay online or in person, with cash or
+                    card. </p><br><br>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- features section ends -->
+
+    <!-- popular order section starts  -->
+
+    <section class="products" id="products">
+
+        <h1 class="heading"> popular <span>Orders</span> </h1>
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <h1>Rosy Blue</h1>
+                    <!-- <h4>healthy,Italian</h4> -->
+                    <img src="image/1.jfif" alt="">
+                    <h3>SHIRT MENS LONG SLEEVE WHITE</h3>
+                    <div class="price">rs.252/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <h1>Sport Direct</h1>
+                    <!-- <h4>indian,gujarati</h4> -->
+                    <img src="image/2.avif" alt="">
+                    <h3>Mens Shirts |Casual, Formal </h3>
+                    <div class="price">rs.275/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <h1>Authentic</h1>
+                    <!-- <h4>north indian,chinese</h4> -->
+                    <img src="image/3.jfif" alt="">
+                    <h3>Casual White Shirt</h3>
+                    <div class="price">rs.229/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <h1>Spykar</h1>
+                    <!-- <h4>snacks,pizzas</h4> -->
+                    <img src="image/4.jfif" alt="">
+                    <h3>Spykar Black Slim Fit Check Shirt</h3>
+                    <div class="price">rs.170/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <h1>Urbano</h1>
+                    <!-- <h4>bakery,beverages</h4> -->
+                    <img src="image/5.jpg" alt="">
+                    <h3>Men's Slim Fit T-Shirt</h3>
+                    <div class="price">rs.300/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <h1>Raabta Fashion Black</h1>
+                    <!-- <h4>beverages,ice creams</h4> -->
+                    <img src="image/6.jfif" alt="">
+                    <h3>White Striped Round Neck T-Shirt</h3>
+                    <div class="price">rs.239/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <h1>Hoodies shop</h1>
+                    <!-- <h4>ice creams,desserts</h4> -->
+                    <img src="image/7.webp" alt="">
+                    <h3>Young Boy Fashion Hoodie</h3>
+                    <div class="price">rs.429/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <h1>baskin robbins</h1>
+                    <!-- <h4>dessert</h4> -->
+                    <img src="image/8.jpg" alt="">
+                    <h3>Loard Shiva Sketch Printed T-Shirt</h3>
+                    <div class="price">rs.499/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <h1>Shiv Fashion</h1>
+                    <!-- <h4>north indian,chinese</h4> -->
+                    <img src="image/9.jpg" alt="">
+                    <h3>Formal Pants</h3>
+                    <div class="price">rs.200/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <h1>mcDonald's</h1>
+                    <!-- <h4>burgers,beverages</h4> -->
+                    <img src="image/10.webp" alt="">
+                    <h3>Trouser Style Pants</h3>
+                    <div class="price">rs.259/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <h1>Lycra</h1>
+                    <!-- <h4>fast food</h4> -->
+                    <img src="image/11.jpg" alt="">
+                    <h3>Women's cotton Lyra cigar pants</h3>
+                    <div class="price">rs.189/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <h1>Blinkin</h1>
+                    <!-- <h4>punjabi,north indian</h4> -->
+                    <img src="image/12.jpg" alt="">
+                    <h3>Women Slim Fit Polyester Pants</h3>
+                    <div class="price">rs.149/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- popular order section ends -->
+
+    <!-- popular brands section starts  -->
+
+    <section class="categories" id="categories">
+
+        <h1 class="heading"> popular <span>brands</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="image/cat-1.png" alt="">
+                <h3>domino's pizza</h3>
+                <p>upto 45% off</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="domino's.html" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="image/cat-2.png" alt="">
+                <h3>jugadi adda</h3>
+                <p>upto 45% off</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="jugadiadda.html" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="image/cat-3.png" alt="">
+                <h3>fire on wheels</h3>
+                <p>upto 45% off</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="fireonwheels.html" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="image/cat-4.png" alt="">
+                <h3>the shake maker</h3>
+                <p>upto 45% off</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="shakemaker.html" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="image/cat-5.jpg" alt="">
+                <h3>south end corner</h3>
+                <p>upto 45% off</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="southendcorner.html" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="image/cat-6.jpg" alt="">
+                <h3>wat-A-Burger</h3>
+                <p>upto 45% off</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="wat-A-Burger.html" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="image/cat-7.jpg" alt="">
+                <h3>big bite</h3>
+                <p>upto 45% off</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="bigbite.html" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="image/cat-8.jpg" alt="">
+                <h3>the second wife</h3>
+                <p>upto 45% off</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="secondwife.html" class="btn">shop now</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- popular brands section ends -->
+
+    <!-- quick section starts  -->
+
+    <section class="quick" id="quick">
+
+        <h1 class="heading"> quick <span>Orders</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="image/blog-1.jpg" alt="">
+                <div class="content">
+                    <h3>La milano pizzeria</h3>
+                    <h2>gold corn pizza</h2>
+                    <p>rs. 119</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/blog-2.jpg" alt="">
+                <div class="content">
+                    <h3>Rasoi se by chanda</h3>
+                    <h2>gujarati full thali</h2>
+                    <p>rs.150</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/blog-3.jpg" alt="">
+                <div class="content">
+                    <h3>secret of south by shivam snacks</h3>
+                    <h2>medu vada (2 pc)</h2>
+                    <p>rs.75</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/blog-4.jpg" alt="">
+                <div class="content">
+                    <h3>kwait walls frozan dessert and ice cream</h3>
+                    <h2>tender coconut ice cream 750 ML</h2>
+                    <p>rs.275</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- quick section ends -->
+
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> customer's <span>review</span> </h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="image/pic-1.png" alt="">
+                    <p>"ABSOLUTELY THE VERY BEST RESTAURANT FOR BREAKFAST, LUNCH & DINNER!!!! WE LOVE THIS RESTAURANT!
+                        OUR WAITRESS
+                        WAS SWEET AND HELPFULL. I WILL DEFINITLY BE BACK!”</p>
+                    <h3>Yash</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/pic-2.png" alt="">
+                    <p>“Very good service, good menu … not overly extensive. Food was very good quality all around.”</p><br><br>
+                    <h3>Alina</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/pic-3.png" alt="">
+                    <p>“Great selection! My go to favorite is the Cape Cod Ruben. We also love their pizza. I just had
+                        the mushroom risotto with scallops and loved it!”</p>
+                    <h3>Dev</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/pic-4.png" alt="">
+                    <p>The food is excellent, generous portions and great prices. The service was fast and friendly. I
+                        highly recommended it if you’re in the Wellfleet area.</p>
+                    <h3>jeeny</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer" id="contact">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3> Radhe Mall <i class="fas fa-shopping-basket"></i> </h3>
+                <p>Shop No.125, Sahyog Complex, GIDC, Metoda, Rajkot, Gujarat 360021</p>
+                <div class="share">
+                    <a href="https://www.facebook.com/radhemall99" class="fab fa-facebook-f"></a>
+                    <a href="https://www.instagram.com/radhe_super_shop_metoda/" class="fab fa-twitter"></a>
+                    <a href="https://www.instagram.com/radhe_super_shop_metoda/" class="fab fa-instagram"></a>
+                    <a href="https://www.linkedin.com/company/mv-clouds-private-limited/mycompany/"class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +91 77788 80010 </a>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +91 7359879498 </a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> dhavalunziya0883@gmail.com </a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Rajkot, Gujarat - 360021 </a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> popular orders </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> popular brands </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> quick Orders</a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="send" class="btn">
+                <img src="image/payment.png" class="payment-img" alt="">
+            </div>
+
+        </div>
+
+        <div class="credit"> created by <span> MV Clouds </span> | all rights reserved </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="index.js"></script>
+
+</body>
+
+</html>

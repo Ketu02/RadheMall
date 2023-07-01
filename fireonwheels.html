@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Grocery Website Design Tutorial</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> hungry </a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#features">features</a>
+            <a href="#products">popular orders</a>
+            <a href="#categories">popular brands</a>
+            <a href="#review">review</a>
+            <a href="#quick">quick Orders</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/product-2.webp" alt="">
+                <div class="content">
+                    <h3>panjabi fix dinner thali</h3>
+                    <span class="price">rs.275/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/product-6.png" alt="">
+                <div class="content">
+                    <h3>strawberry <br> milkshake</h3>
+                    <span class="price">rs.239/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/product-7.png" alt="">
+                <div class="content">
+                    <h3>Choclate Ice cream pp</h3>
+                    <span class="price">rs.229/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="total"> total : rs.743/- <br>
+                discount : rs.40/- <br>
+                grand total : rs.703/- </div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+            <div class="content">
+                <h3> First, we eat. Then, we do everything else</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- quick section starts  -->
+
+    <section class="quick" id="quick">
+
+        <h1 class="heading"><span>Recommended</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="image/tproduct-1.webp" alt="">
+                <div class="content">
+                    <h2>Berlin Doner Veg Combo</h2>
+                    <p>rs. 399<br>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>   4.3
+                        </div><br>
+                    <h4>1 Doner + 1 Sides + 1 Beverage Option</h4><br>
+                    <a href="#" class="btn">add + </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/tproduct-2.webp" alt="">
+                <div class="content">
+                    <h2>Chicago Gyro Veg Combo</h2>
+                    <p>rs.399</p><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>   4.2
+                    </div><br>
+                    <h4>1 Gyro + 1 Sides + 1 Beverage Option</h4><br>
+                    <a href="#" class="btn">Add +</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/tproduct-3.webp" alt="">
+                <div class="content">
+                    <h2>classic Veggie Combo</h2>
+                    <p>rs.199</p><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>   4.5
+                    </div><br>
+                    <h4>classic Veggie Combo (1 Doner + 1 Small French Fries + 1 Beverage Option)</h4><br>
+                    <a href="#" class="btn">Add +</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/tproduct-4.webp" alt="">
+                <div class="content">
+                    <h2>Classic Wrap Veg Combo</h2>
+                    <p>rs.399</p><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>   5.0
+                    </div><br>
+                    <h4>1 Wrap + 1 Sides + 1 Beverage Option</h4><br>
+                    <a href="#" class="btn">Add +</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/tproduct-5.webp" alt="">
+                <div class="content">
+                    <h2>Gyro Platter Falafel</h2>
+                    <p>rs. 499</p><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>   5.0
+                    </div><br>
+                    <h4>Your delicious choice of protein with fresh greek salad, <br>sliced pita with the traditional Tzatziki or Hummus and some french fries</h4><br><br>
+                    <a href="#" class="btn">Add +</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/tproduct-6.webp" alt="">
+                <div class="content">
+                    <h2>Falafel Platter Hara Bhara Kabab</h2>
+                    <p>rs.559</p><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>   5.0
+                    </div><br>
+                    <h4>4 Pcs of Gluten Free Falafel with the golden fried <br>Hara Bhara Kabab accompained with Greek And Caleslaw Salad And Hummus Or Tzatziki Sauce.</h4><br><br>
+                    <a href="#" class="btn">Add +</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/tproduct-7.webp" alt="">
+                <div class="content">
+                    <h2>Fieasta Platter Hara Bhara Kabab</h2>
+                    <p>rs.499</p><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>   5.0
+                    </div><br>
+                    <h4>Your delicious choice of protein with fresh greek<br> salad and Tzatziki served with Finger Licking Gravy And Rice</h4><br><br><br>
+                    <a href="#" class="btn">Add +</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/tproduct-8.webp" alt="">
+                <div class="content">
+                    <h2>Gyro Platter Hara Bhara Kabab</h2>
+                    <p>rs.339</p><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>   4.5
+                    </div><br>
+                    <h4>Your delicious choice of protein with fresh greek salad, sliced pita with the traditional Tzatziki or Hummus and some french fries</h4><br><br>
+                    <a href="#" class="btn">add +</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/tproduct-9.webp" alt="">
+                <div class="content">
+                    <h2>Gyro Platter Paneer</h2>
+                    <p>rs. 499</p><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>   5.0
+                    </div><br>
+                    <h4>Your delicious choice of protein with fresh greek salad, sliced pita with the traditional Tzatziki or Hummus and some french fries.</h4><br><br><br>
+                    <a href="#" class="btn">add +</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/tproduct-10.jpg" alt="">
+                <div class="content">
+                    <h2>Swiss Mushroom Doner</h2>
+                    <p>rs.299</p><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>   5.0
+                    </div><br>
+                    <h4>Sauted BBQ Mushrooms + Mayonaisse + Cheese Slice + Fresh Veggies</h4><br><br><br>
+                    <a href="#" class="btn">add +</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/tproduct-11.webp" alt="">
+                <div class="content">
+                    <h2>Hara Bhara Kabab Doner</h2>
+                    <p>rs.249</p><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>   5.0
+                    </div><br>
+                    <h4>Hara Bhara Kabab + Hummus + Tzatziki + Garlic Mayo + Fresh Veggies + Turkish Pickles</h4><br><br><br>
+                    <a href="#" class="btn">add +</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/tproduct-12.jpg" alt="">
+                <div class="content">
+                    <h2>Falafel Doner</h2>
+                    <p>rs.309</p><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>   3.5
+                    </div><br>
+                    <h4>Falafel + Hummus + Tzatziki + Garlic Mayo + Fresh Veggies + Turkish Pickles</h4><br><br><br>
+                    <a href="#" class="btn">add +</a>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- quick section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3> hungry <i class="fas fa-shopping-basket"></i> </h3>
+                <p>Near,D-404,The First Synthesis B/H keshav Baugh Party Plot, Shivalik High Street Ahmedabad,Gujrat 380015.</p>
+                <div class="share">
+                    <a href="https://www.facebook.com/people/MV-Clouds-Private-Limited/100063698268170/"
+                        class="fab fa-facebook-f"></a>
+                    <a href="https://twitter.com/mvclouds" class="fab fa-twitter"></a>
+                    <a href="https://www.instagram.com/mvcloudsync/?hl=en" class="fab fa-instagram"></a>
+                    <a href="https://www.linkedin.com/company/mv-clouds-private-limited/mycompany/"
+                        class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +91 79403 72991 </a>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +91 79403 72991 </a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> Mvclouds@gmail.com </a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Ahmedabad, india - 380015 </a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> popular orders </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> popular brands </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> quick Orders</a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="send" class="btn">
+                <img src="image/payment.png" class="payment-img" alt="">
+            </div>
+
+        </div>
+
+        <div class="credit"> created by <span> MV Clouds </span> | all rights reserved </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="index.js"></script>
+
+</body>
+
+</html>

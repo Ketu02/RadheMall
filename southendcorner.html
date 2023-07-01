@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Grocery Website Design Tutorial</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> hungry </a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#features">features</a>
+            <a href="#products">popular orders</a>
+            <a href="#categories">popular brands</a>
+            <a href="#review">review</a>
+            <a href="#quick">quick Orders</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/product-2.webp" alt="">
+                <div class="content">
+                    <h3>panjabi fix dinner thali</h3>
+                    <span class="price">rs.275/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/product-6.png" alt="">
+                <div class="content">
+                    <h3>strawberry <br> milkshake</h3>
+                    <span class="price">rs.239/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/product-7.png" alt="">
+                <div class="content">
+                    <h3>Choclate Ice cream pp</h3>
+                    <span class="price">rs.229/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="total"> total : rs.743/- <br>
+                discount : rs.40/- <br>
+                grand total : rs.703/- </div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+            <div class="content">
+                <h3> Food shared is happiness multiplied</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- quick section starts  -->
+
+    <section class="quick" id="quick">
+
+        <h1 class="heading"><span>Recommended</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="image/oproduct-1.webp" alt="">
+                <div class="content">
+                    <h2>Cheese Dosa</h2>
+                    <p>rs. 185<br>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>   4.3
+                        </div><br>
+                    <h4>Dosa with a generous helping of cheese.</h4><br>
+                    <a href="#" class="btn">add + </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/oproduct-2.webp" alt="">
+                <div class="content">
+                    <h2>Spring Dosa</h2>
+                    <p>rs.250</p><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>   4.2
+                    </div><br>
+                    <h4>Special dosa with vegetable filling</h4><br>
+                    <a href="#" class="btn">Add +</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/oproduct-3.webp" alt="">
+                <div class="content">
+                    <h2>Cheesy Spring Dosa</h2>
+                    <p>rs.275</p><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>   4.5
+                    </div><br>
+                    <h4>Special spring dosa with cheese.</h4><br>
+                    <a href="#" class="btn">Add +</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/oproduct-4.jpg" alt="">
+                <div class="content">
+                    <h2>Paneer Dosa</h2>
+                    <p>rs.300</p><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>   5.0
+                    </div><br>
+                    <h4>Dosa with a filling of spicy paneer.</h4><br>
+                    <a href="#" class="btn">Add +</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/oproduct-5.webp" alt="">
+                <div class="content">
+                    <h2>Crisp & Crunchy Rava Dosa</h2>
+                    <p>rs. 160</p><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>   5.0
+                    </div><br>
+                    <h4>Dosa made from semolina flour.</h4><br><br>
+                    <a href="#" class="btn">Add +</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/oproduct-6.webp" alt="">
+                <div class="content">
+                    <h2>Mysore Chatpata Dosa(1pcs)</h2>
+                    <p>rs.170</p><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>   5.0
+                    </div><br>
+                    <h4>Spicy dosa with coriander & garlic chutney</h4><br><br>
+                    <a href="#" class="btn">Add +</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/oproduct-7.webp" alt="">
+                <div class="content">
+                    <h2>Super Paper Dosa</h2>
+                    <p>rs.195</p><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>   5.0
+                    </div><br>
+                    <h4>The crispy dosa.</h4><br><br>
+                    <a href="#" class="btn">Add +</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/oproduct-8.webp" alt="">
+                <div class="content">
+                    <h2>Butter Idli</h2>
+                    <p>rs.125</p><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>   4.5
+                    </div><br>
+                    <h4>Idli loaded with butter</h4><br><br>
+                    <a href="#" class="btn">add +</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/oproduct-9.webp" alt="">
+                <div class="content">
+                    <h2>Vegetable Upmad</h2>
+                    <p>rs. 100</p><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>   5.0
+                    </div><br>
+                    <h4>Made from sooji and grated fresh vegetable</h4><br><br><br>
+                    <a href="#" class="btn">add +</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/oproduct-10.webp" alt="">
+                <div class="content">
+                    <h2>Chennai Pizza Uttapam</h2>
+                    <p>rs.350</p><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>   5.0
+                    </div><br>
+                    <h4>Crispy uttapam that tastes like a pizza</h4><br><br><br>
+                    <a href="#" class="btn">add +</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/oproduct-11.webp" alt="">
+                <div class="content">
+                    <h2>Special Indian Bhaji Dosa</h2>
+                    <p>rs.300</p><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>   5.0
+                    </div><br>
+                    <h4>Chef'S Special.</h4><br><br><br>
+                    <a href="#" class="btn">add +</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/oproduct-12.webp" alt="">
+                <div class="content">
+                    <h2>Set Dosa Meal</h2>
+                    <p>rs.200</p><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>   3.5
+                    </div><br>
+                    <h4>Four Small Pancakes Served With Korma</h4><br><br><br>
+                    <a href="#" class="btn">add +</a>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- quick section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3> hungry <i class="fas fa-shopping-basket"></i> </h3>
+                <p>Near,D-404,The First Synthesis B/H keshav Baugh Party Plot, Shivalik High Street Ahmedabad,Gujrat 380015.</p>
+                <div class="share">
+                    <a href="https://www.facebook.com/people/MV-Clouds-Private-Limited/100063698268170/"
+                        class="fab fa-facebook-f"></a>
+                    <a href="https://twitter.com/mvclouds" class="fab fa-twitter"></a>
+                    <a href="https://www.instagram.com/mvcloudsync/?hl=en" class="fab fa-instagram"></a>
+                    <a href="https://www.linkedin.com/company/mv-clouds-private-limited/mycompany/"
+                        class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +91 79403 72991 </a>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +91 79403 72991 </a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> Mvclouds@gmail.com </a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Ahmedabad, india - 380015 </a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> popular orders </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> popular brands </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> quick Orders</a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="send" class="btn">
+                <img src="image/payment.png" class="payment-img" alt="">
+            </div>
+
+        </div>
+
+        <div class="credit"> created by <span> MV Clouds </span> | all rights reserved </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="index.js"></script>
+
+</body>
+
+</html>
